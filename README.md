@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/sohamvsonar/sohamvsonar.github.io/blob/source/src/images/demo.png" width="100" />
+  <img alt="Logo" src="https://github.com/sohamvsonar/sohamvsonar.github.io/blob/main/src/images/demo.png" width="100" />
 </div>
 <h1 align="center">
   Soham's Portfolio Website - v1
@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img alt="Demo" src="https://github.com/sohamvsonar/sohamvsonar.github.io/blob/source/src/images/demo.png" />
+  <img alt="Demo" src="https://github.com/sohamvsonar/sohamvsonar.github.io/blob/main/src/images/demo.png" />
 </div>
 
 ### TL;DR
