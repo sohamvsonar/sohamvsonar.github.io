@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sohamvsonar.github.io/sitemap-index.xml
+Host: https://sohamvsonar.github.io
