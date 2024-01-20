@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/sohamvsonar/sohamvsonar.github.io/blob/main/src/images/demo.png" width="100" />
+  <img alt="Logo" src="https://github.com/sohamvsonar/sohamvsonar.github.io/blob/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   Soham's Portfolio Website - v1
