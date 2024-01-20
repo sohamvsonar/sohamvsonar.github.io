@@ -5,7 +5,7 @@
   Soham's Portfolio Website - v1
 </h1>
 <p align="center">
-  The first version of <a href="sohamvsonar.github.io" target="_blank">Welcome to my portfolio website.</a> This website showcases my skills, projects, and experience. Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  The first version of <a href="[sohamvsonar.github.io](https://sohamvsonar.github.io/)" target="_blank">Welcome to my portfolio website.</a> This website showcases my skills, projects, and experience. Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
 </p>
 
 <div align="center">
