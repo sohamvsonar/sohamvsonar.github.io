@@ -1,10 +1,10 @@
 ---
 date: '3'
-title: '```Restaurent Bill 
+title: '```Restaurant Bill 
 & Inventory Management System'
 cover: './SS.jpg'
-external: 'https://github.com/sohamvsonar/RestaurentBillMS'
-cta: 'https://github.com/sohamvsonar/RestaurentBillMS'
+external: 'https://github.com/sohamvsonar/RestaurantBillMS'
+cta: 'https://github.com/sohamvsonar/RestaurantBillMS'
 tech:
   - Python
   - MySQL

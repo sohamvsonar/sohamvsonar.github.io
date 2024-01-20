@@ -60,8 +60,8 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I’m currently looking for new opportunities to work as a software Engineer Intern/ Software Development
-        Engineer for Summer 2024, Open to all locations in the United States/remote, my inbox is always open.
+        I’m currently looking for new opportunities to work as a Software Engineer Intern/ Software Development
+        Engineer Intern for Summer 2024, Open to all locations in the United States/remote, my inbox is always open.
         I Have a genuine interest in connecting with new people and exchange innovative thoughts and concept.
         Please feel free to reach out to me!
       </p>

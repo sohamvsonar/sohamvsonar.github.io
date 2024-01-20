@@ -212,7 +212,7 @@ const Projects = () => {
 
       <Link
         className="inline-link archive-link"
-        to="https://github.com/sohamsonar427?tab=repositories"
+        to="https://github.com/sohamvsonar?tab=repositories"
         ref={revealArchiveLink}
       >
         view the archive
