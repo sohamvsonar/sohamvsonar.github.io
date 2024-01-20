@@ -2,6 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
+    pathPrefix: "/sohamvsonar.github.io",
     title: 'Soham Sonar',
     description:
       'I’m a software engineer specialized in building robust software using Python programming language . Currently, my passion is fueled by the captivating world of machine learning.',
