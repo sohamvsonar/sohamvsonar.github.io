@@ -52,8 +52,8 @@ const Skills = () => {
         <div className="box"> Python </div>
         <div className="box"> Java </div>
         <div className="box"> C++ </div>
-        <div className="box"> Dart </div>
-        <div className="box"> Flutter </div>
+        <div className="box"> GenAI/LLM's </div>
+        <div className="box"> R </div>
         <div className="box"> MySQL </div>
         <div className="box"> Django </div>
         <div className="box"> HTML </div>
@@ -61,7 +61,8 @@ const Skills = () => {
         <div className="box"> Node.js </div>
         <div className="box"> React </div>
         <div className="box"> REST </div>
-        <div className="box"> Git </div>
+        <div className="box"> GitHub </div>
+        <div className="box"> Flutter </div>
         {/* Add more skills boxes as needed */}
       </div>
       <h2> </h2>

@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Flutter', 'Linux scripts', 'NLTK', 'Django', 'Node.js', 'Pandas'];
+  const skills = ['Langchain', 'llama', 'NLTK', 'RAG models', 'Linux scripts', 'Pandas'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -143,21 +143,20 @@ const About = () => {
 
             <p>
               Currently, I am pursuing a Master's Degree in Computer Science at the {' '}
-              <a href="https://www.iit.edu/"> Illinois Institute of Technology, Chicago, IL,</a>{' '}
-              maintaining a GPA of 3.7 out of 4.
+              <a href="https://www.iit.edu/"> Illinois Institute of Technology, Chicago, IL.</a>{' '}
             </p>
 
             <p>
-              I have a Experience of working at
-              {' '}<a href="https://hexaware.com/">an Information Technology company</a>,{' '}
-              and <a href="https://wolfizer.com/"> a start-up</a>{' '}.
+              I have a Experience of working at an
+              {' '}<a href="https://hexaware.com/"> Information Technology company</a>,{' '}
+              and a <a href="https://wolfizer.com/"> start-up</a>{' '}.
               Recently, I have build a great interest in developing mobile applications and games using Flutter,
               You can check some of the applications I made below.
             </p>
 
             <p>
               My Hobbies include
-              Playing Chess and competing in tournaments, Trekking and Weightlifting.
+              Playing <a href="https://www.chess.com/member/soham427"> Chess</a>{' '} and competing in tournaments, Trekking and Weightlifting.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

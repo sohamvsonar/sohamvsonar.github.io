@@ -66,7 +66,7 @@ const Hero = () => {
     <>
       <p>
         I’m a software engineer specialized in building robust software using Python programming language.
-         Currently, my passion is fueled by the captivating world of machine learning. 
+         Currently, my passion is fueled by the captivating world of machine learning and Large Language Models. 
       </p>
       <p>
         I enjoy learning new skills and implementing them!
