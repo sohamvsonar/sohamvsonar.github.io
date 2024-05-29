@@ -1,10 +1,9 @@
 ---
 date: '3'
-title: '```Restaurant Bill 
-& Inventory Management System'
+title: 'DocQuery'
 cover: './SS.jpg'
-external: 'https://github.com/sohamvsonar/RestaurantBillMS'
-cta: 'https://github.com/sohamvsonar/RestaurantBillMS'
+external: 'https://github.com/sohamvsonar/DocQuery'
+cta: 'https://github.com/sohamvsonar/DocQuery'
 tech:
   - Python
   - MySQL
