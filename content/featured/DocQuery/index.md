@@ -1,15 +1,17 @@
 ---
-date: '3'
+date: '2'
 title: 'DocQuery'
-cover: './SS.jpg'
+cover: './img1.jpg'
 external: 'https://github.com/sohamvsonar/DocQuery'
 cta: 'https://github.com/sohamvsonar/DocQuery'
 tech:
-  - Python
-  - MySQL
-  - GUI
-  - Tkinter
+
+  - --- Python
+  - Langchain
+  - Google Palm
+  - API
+  - streamlit
+  - GenAI
 ---
 
-Built a GUI based application with a graphical interface for a restaurant handling multiple operations. Data is stored and 
-connected to the backend using SQL. The system has a login window for admins and the staff.
+This project leverages LangChain to develop an application that enables users to interact with PDFs. Users can upload a PDF file and ask questions about its content. The application utilizes LangChain to search the PDF for pertinent information and generate responses.

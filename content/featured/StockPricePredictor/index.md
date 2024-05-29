@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Stock Market Price Predictor'
 cover: './SS1.jpg'
 github: 'https://github.com/sohamvsonar/Stock-Market-Price-Predictor'
