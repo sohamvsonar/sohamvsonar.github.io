@@ -2,7 +2,6 @@
 date: '2023-12-15'
 title: 'Sentiment Analysis with Smoothed Bigram Language Model'
 github: 'https://github.com/sohamvsonar/sentiment_analysis'
-external: ''
 tech:
   - Python
   - NLTK

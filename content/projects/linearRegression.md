@@ -2,7 +2,6 @@
 date: '2022-08-01'
 title: 'Linear Regression Model'
 github: 'https://github.com/sohamvsonar/linear_regression'
-external: ''
 tech:
   - Python
   - Scikit-learn

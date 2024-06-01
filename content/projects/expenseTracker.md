@@ -2,7 +2,6 @@
 date: '2023-12-27'
 title: 'Expense Tracker Application'
 github: 'https://github.com/sohamvsonar/expense_tracker'
-external: ''
 tech:
   - Flutter
   - Dart

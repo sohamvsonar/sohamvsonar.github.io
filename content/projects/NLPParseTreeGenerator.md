@@ -2,7 +2,6 @@
 date: '2023-08-30'
 title: 'NLP Parse Tree Generator'
 github: 'https://github.com/sohamvsonar/NLPParseTreeGenerator'
-external: ''
 tech:
   - Python
   - NLP libraries

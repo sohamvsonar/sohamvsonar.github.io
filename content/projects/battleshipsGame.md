@@ -2,7 +2,6 @@
 date: '2023-11-29'
 title: 'Battleships Game'
 github: 'https://github.com/sohamvsonar/battleships_game'
-external: ''
 tech:
   - Flutter
   - Dart

@@ -2,7 +2,6 @@
 date: '2023-11-12'
 title: 'Restaurant Bill and Inventory Management System'
 github: 'https://github.com/sohamvsonar/RestaurantBillMS'
-external: ''
 tech:
   - Python
   - Tkinter

@@ -2,7 +2,6 @@
 date: '2023-12-01'
 title: 'NLP Probability Distribution and Entropy Analysis'
 github: 'https://github.com/sohamvsonar/ProbabilityDistribution'
-external: ''
 tech:
   - Python
   - NLTK
