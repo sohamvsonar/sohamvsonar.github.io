@@ -2,7 +2,8 @@
 date: '2021-1-20'
 title: 'Yahtzee Game'
 github: 'https://github.com/sohamvsonar/yahtzee_game'
-external: ''
+ios: ''
+android: ''
 tech:
   - Flutter
   - Dart
