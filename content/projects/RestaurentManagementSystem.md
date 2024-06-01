@@ -8,7 +8,7 @@ tech:
   - Tkinter
   - MySQL
 
-company: 'Upstatement'
+company: ''
 showInProjects: true
 ---
 
