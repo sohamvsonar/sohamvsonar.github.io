@@ -53,5 +53,5 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 1. Preview the site as it will appear once deployed
 
    ```sh
-   npm run serve
+   npm run serv
    ```
