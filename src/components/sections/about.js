@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Langchain', 'llama', 'NLTK', 'RAG models', 'Linux scripts', 'Pandas'];
+  const skills = ['Langchain', 'Agentic AI', 'OpenAI-GPT-4o', 'RAG models', 'Linux scripts', 'Autogens'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -147,10 +147,9 @@ const About = () => {
             </p>
 
             <p>
-              I have a Experience of working at an
-              {' '}<a href="https://hexaware.com/"> Information Technology company</a>,{' '}
-              and a <a href="https://wolfizer.com/"> start-up</a>{' '}.
-              Recently, I have build a great interest in developing mobile applications and games using Flutter,
+              I have a Experience of working at multiple startups, <a href="https://vosyn.ai/"> Vosyn AI</a>{' '}, <a href="https://wolfizer.com/"> Wolfizer Technologies</a>{' '}, 
+              and an Information Technology company- {' '}<a href="https://hexaware.com/">Hexaware Technologies</a>, {' '}
+              Recently, I have build a great interest in developing AI applications, using LLM's,
               You can check some of the applications I made below.
             </p>
 

@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I’m currently looking for new opportunities to work as a Software Engineer Intern/ Data Science Intern for Summer/Fall 2024, Open to all locations in the United States/remote, my inbox is always open.
+        I’m currently looking for Full Time Job opportunities to work as a Software Engineer/ Data Scientist/ Machine Learning Engineer for 2025, Open to all locations in the United States/remote, my inbox is always open.
         I Have a genuine interest in connecting with new people and exchange innovative thoughts and concept.
         Please feel free to reach out to me!
       </p>

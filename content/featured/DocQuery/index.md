@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'DocQuery'
 cover: './img1.jpg'
 external: 'https://github.com/sohamvsonar/DocQuery'

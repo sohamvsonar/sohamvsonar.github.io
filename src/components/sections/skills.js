@@ -62,7 +62,13 @@ const Skills = () => {
         <div className="box"> React </div>
         <div className="box"> REST </div>
         <div className="box"> GitHub </div>
-        <div className="box"> Flutter </div>
+        <div className="box"> Autogens </div>
+        <div className="box"> Agentic AI </div>
+        <div className="box"> Machine Learning </div>
+        <div className="box"> AWS </div>
+        <div className="box"> GCP </div>
+        <div className="box"> Linux/ bash scripting </div>
+        <div className="box"> SAAS </div>
         {/* Add more skills boxes as needed */}
       </div>
       <h2> </h2>
@@ -78,8 +84,16 @@ const Skills = () => {
       <h2> </h2>
       <h2> </h2>
       <h2> </h2>
-      <h2 ref={revealCertifications}>Certifications</h2>
+      <h2 ref={revealCertifications}>Courses & Certifications</h2>
       <div className="certifications-container">
+        <div className="box"> Design and Analysis of Algorithms (CS535) </div>
+        <div className="box"> Advanced Operating Systems (CS550) </div>
+        <div className="box"> Cloud Computing (CS553) </div>
+        <div className="box"> Advanced Database Organization (CS525) </div>
+        <div className="box"> Machine Learning (CS584) </div>
+        <div className="box"> Nautral Language Processing (CS585) </div>
+        <div className="box"> Data Preparation and Analysis (CSP571) </div>
+        <div className="box"> Big Data Technologies (CSP 574) </div>
         <div className="box"> 100 Days of Python Bootcamp </div>
         <div className="box"> Java Data Structures and Algorithms </div>
         <div className="box"> Google Cloud Architecture </div>
