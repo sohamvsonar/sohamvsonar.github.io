@@ -1,5 +1,5 @@
 ---
-date: '2025-1-5'
+date: '2025-01-05'
 title: 'Chicago Energy Forecast using Autogens'
 github: 'https://github.com/sohamvsonar/Chicago-Energy-Forecast-Using-Autogens'
 tech:
