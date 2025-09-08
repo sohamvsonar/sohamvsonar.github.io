@@ -52,7 +52,7 @@ export function Contact() {
           <div className="bg-background/80 backdrop-blur-sm border border-border rounded-2xl p-8 shadow-lg mb-12">
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-foreground leading-relaxed mb-6">
-                I'm currently looking for <span className="font-semibold text-primary">Full Time Job opportunities</span> to 
+                I&apos;m currently looking for <span className="font-semibold text-primary">Full Time Job opportunities</span> to 
                 work as a <span className="font-semibold">Software Engineer</span>, <span className="font-semibold">AI Engineer</span>, 
                 or <span className="font-semibold">Machine Learning Engineer</span> for 2025. Open to all locations in the 
                 United States/remote, my inbox is always open.

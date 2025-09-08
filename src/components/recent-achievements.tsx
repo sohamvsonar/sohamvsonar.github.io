@@ -191,7 +191,7 @@ export function RecentAchievements() {
                             /* Graduation Info */
                             <div className="p-6 bg-background border border-border rounded-lg">
                               <p className="text-foreground leading-relaxed">
-                                I successfully completed my Master's degree in Computer Science from Illinois Institute of Technology. 
+                                I successfully completed my Master&apos;s degree in Computer Science from Illinois Institute of Technology. 
                                 This milestone represents the culmination of intensive study in advanced computer science topics including distributed systems, 
                                 machine learning, and software engineering.
                               </p>
@@ -414,7 +414,7 @@ export function RecentAchievements() {
               Interested in Research Collaboration?
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              I'm always open to discussing research opportunities in AI, distributed systems, and scalable data management. 
+              I&apos;m always open to discussing research opportunities in AI, distributed systems, and scalable data management. 
               Feel free to reach out to explore potential collaborations.
             </p>
             <a 

@@ -94,7 +94,7 @@ export function About() {
               </p>
 
               <p>
-                Recently, I have built a great interest in developing <span className="text-primary font-semibold">AI applications using LLM's</span>. 
+                Recently, I have built a great interest in developing <span className="text-primary font-semibold">AI applications using LLM&apos;s</span>. 
                 You can check some of the applications I made below.
               </p>
 

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
+import Image from "next/image"
 
 export function GitHubContributions() {
   const { theme } = useTheme()
@@ -44,13 +45,16 @@ export function GitHubContributions() {
           <div className="flex justify-center">
             <div className="w-full max-w-4xl">
               {mounted && (
-                <img
+                <Image
                   src={`https://ghchart.rshah.org/${theme === 'dark' ? '2f81f7' : '40c463'}/sohamvsonar`}
                   alt="sohamvsonar's GitHub contribution graph"
+                  width={896}
+                  height={128}
                   className="w-full h-auto rounded-lg"
                   style={{
                     filter: theme === 'dark' ? 'brightness(0.9)' : 'brightness(1)',
                   }}
+                  unoptimized
                 />
               )}
             </div>
