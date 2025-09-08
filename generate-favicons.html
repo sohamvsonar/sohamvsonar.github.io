@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Favicons</title>
+    <style>
+        canvas { border: 1px solid #ccc; margin: 10px; }
+        .favicon-container { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Favicon Generator</h1>
+    <div class="favicon-container">
+        <h3>16x16</h3>
+        <canvas id="favicon16" width="16" height="16"></canvas>
+        <a id="download16" download="favicon-16x16.png">Download 16x16</a>
+    </div>
+    
+    <div class="favicon-container">
+        <h3>32x32</h3>
+        <canvas id="favicon32" width="32" height="32"></canvas>
+        <a id="download32" download="favicon-32x32.png">Download 32x32</a>
+    </div>
+    
+    <div class="favicon-container">
+        <h3>180x180 (Apple Touch)</h3>
+        <canvas id="favicon180" width="180" height="180"></canvas>
+        <a id="download180" download="apple-touch-icon.png">Download Apple Touch Icon</a>
+    </div>
+
+    <script>
+        function drawFavicon(canvas, size) {
+            const ctx = canvas.getContext('2d');
+            
+            // Create gradient
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#ec4899'); // pink-500
+            gradient.addColorStop(1, '#2563eb'); // blue-600
+            
+            // Draw rounded rectangle background
+            const radius = size / 4;
+            ctx.beginPath();
+            ctx.roundRect(0, 0, size, size, radius);
+            ctx.fillStyle = gradient;
+            ctx.fill();
+            
+            // Draw text
+            ctx.fillStyle = 'white';
+            ctx.font = `bold ${size * 0.4}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('S', size / 2, size / 2);
+            
+            // Add small accent dot
+            ctx.beginPath();
+            ctx.arc(size * 0.8, size * 0.2, size * 0.06, 0, 2 * Math.PI);
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+            ctx.fill();
+            
+            return canvas.toDataURL('image/png');
+        }
+        
+        function setupDownload(canvasId, downloadId) {
+            const canvas = document.getElementById(canvasId);
+            const size = parseInt(canvasId.replace('favicon', ''));
+            const dataUrl = drawFavicon(canvas, size);
+            
+            const downloadLink = document.getElementById(downloadId);
+            downloadLink.href = dataUrl;
+        }
+        
+        // Polyfill for roundRect if needed
+        if (!CanvasRenderingContext2D.prototype.roundRect) {
+            CanvasRenderingContext2D.prototype.roundRect = function(x, y, width, height, radius) {
+                this.beginPath();
+                this.moveTo(x + radius, y);
+                this.arcTo(x + width, y, x + width, y + height, radius);
+                this.arcTo(x + width, y + height, x, y + height, radius);
+                this.arcTo(x, y + height, x, y, radius);
+                this.arcTo(x, y, x + width, y, radius);
+                this.closePath();
+            };
+        }
+        
+        // Generate all favicons
+        setupDownload('favicon16', 'download16');
+        setupDownload('favicon32', 'download32');
+        setupDownload('favicon180', 'download180');
+    </script>
+</body>
+</html>
