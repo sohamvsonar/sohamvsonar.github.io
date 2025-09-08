@@ -116,6 +116,17 @@ export function Hero() {
                 View My Work
               </motion.button>
               
+              <motion.a
+                href="/Soham_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-accent hover:text-accent-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                View Resume
+              </motion.a>
+              
               <motion.button
                 className="px-8 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-accent hover:text-accent-foreground transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                 whileHover={{ scale: 1.05 }}

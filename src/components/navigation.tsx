@@ -100,6 +100,16 @@ export function Navigation() {
                 {item.name}
               </motion.button>
             ))}
+            <motion.a
+              href="/Soham_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors"
+              whileHover={{ y: -2, scale: 1.05 }}
+              whileTap={{ y: 0, scale: 0.95 }}
+            >
+              Resume
+            </motion.a>
             <ThemeToggle />
           </div>
 
@@ -140,6 +150,18 @@ export function Navigation() {
                     {item.name}
                   </motion.button>
                 ))}
+                <motion.a
+                  href="/Soham_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-left px-4 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors mt-2"
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: navigation.length * 0.1 }}
+                  onClick={() => setIsOpen(false)}
+                >
+                  Resume
+                </motion.a>
               </div>
             </motion.div>
           )}
