@@ -9,6 +9,7 @@ const navigation = [
   { name: "About", href: "#about" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
+  { name: "Achievements", href: "#recent-achievements" },
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
 ]
@@ -27,19 +28,39 @@ export function Navigation() {
   }, [])
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href)
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
-    }
+    console.log('Attempting to scroll to:', href)
+    
+    // Close mobile menu first
     setIsOpen(false)
+    
+    // Small delay to allow menu to close
+    setTimeout(() => {
+      const element = document.querySelector(href) as HTMLElement
+      console.log('Found element:', element)
+      
+      if (element) {
+        const headerOffset = 20; // Account for fixed header + extra spacing
+        const elementPosition = element.offsetTop;
+        const offsetPosition = elementPosition - headerOffset;
+
+        console.log('Scrolling to position:', offsetPosition)
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      } else {
+        console.error('Element not found for selector:', href)
+      }
+    }, 300) // Wait for menu animation to complete
   }
 
   return (
     <motion.header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-background/80 backdrop-blur-md border-b border-border"
-          : "bg-transparent"
+      className={`fixed w-full z-50 ${
+        scrolled || isOpen
+          ? "top-0 bg-background/90 backdrop-blur-md border-b border-border"
+          : "top-0 bg-transparent"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -48,14 +69,22 @@ export function Navigation() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <motion.div
-            className="text-xl font-bold"
+            className="relative"
             whileHover={{ scale: 1.05 }}
           >
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="text-primary hover:text-primary/80 transition-colors"
+              className="relative flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-blue-600 hover:from-primary/90 hover:to-blue-600/90 transition-all duration-300 shadow-lg hover:shadow-xl group"
             >
-              SS
+              <span className="text-xl font-bold text-white group-hover:scale-110 transition-transform duration-200">
+                S
+              </span>
+              
+              {/* Decorative border */}
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/20 to-blue-600/20 blur-sm group-hover:blur-md transition-all duration-300" />
+              
+              {/* Corner accent */}
+              <div className="absolute top-1 right-1 w-2 h-2 bg-white/20 rounded-full opacity-60 group-hover:opacity-100 transition-opacity" />
             </button>
           </motion.div>
 
@@ -99,8 +128,11 @@ export function Navigation() {
                 {navigation.map((item, index) => (
                   <motion.button
                     key={item.name}
-                    onClick={() => scrollToSection(item.href)}
-                    className="block w-full text-left text-muted-foreground hover:text-primary transition-colors font-medium py-2"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      scrollToSection(item.href);
+                    }}
+                    className="block w-full text-left text-muted-foreground hover:text-primary transition-colors font-medium py-2 px-2 rounded hover:bg-muted/50 cursor-pointer touch-manipulation"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
