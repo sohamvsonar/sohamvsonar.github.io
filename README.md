@@ -133,3 +133,4 @@ Update the content in each component file to reflect your personal information:
 ## 📞 Contact
 
 Feel free to reach out if you have any questions or suggestions!
+Email: soham.sonar427@gmail.com
