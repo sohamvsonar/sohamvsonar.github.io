@@ -9,10 +9,26 @@ import { useEffect, useState } from "react"
 
 const featuredProjects = [
   {
+    id: "Docquery",
+    title: "Docquery",
+    period: "October - November 2025",
+    description: "Engineered an AI-powered knowledge and document querying platform using FastAPI, PostgreSQL, FAISS, and OpenAI embeddings, enabling hybrid semantic–keyword retrieval with 30% higher answer accuracy than traditional systems.",
+    highlights: [
+      "30% higher answer accuracy",
+      "40% reduced compute cost per query",
+      "Supports 200+ concurrent users",
+      "Hybrid semantic–keyword retrieval",
+      "Scalable production-grade architecture with Redis caching"
+    ],
+    techStack: ["RAG", "FastAPI", "PostgreSQL", "FAISS", "OpenAI Embeddings", "Redis", "Async Processing"],
+    image: "/images/projects/docquery.jpg",
+    projectUrl: "https://docquery.me/"
+  },
+  {
     id: "enterprise-io-automation",
     title: "Enterprise IO Automation Framework (IOWarp MCPs)",
     status: "Currently Active",
-    period: "2024 - Present",
+    period: "2025 - Present",
     description: "Led the development of the Model Context Protocol (MCP) server framework, including Pandas, Parquet, Plot and HDF5 MCP servers, to automate I/O and filesystem workflows for local and cloud environments.",
     highlights: [
       "Designed custom LLM client using Google Gen AI SDK",
@@ -70,21 +86,6 @@ const featuredProjects = [
     techStack: ["Python", "React", "Flask", "Elasticsearch", "GitHub API", "ML"],
     image: "/images/projects/github-insights.jpg",
     githubUrl: "https://github.com/sohamvsonar/GitHub-Repo-Insights-and-Forecasting-Tool"
-  },
-  {
-    id: "p2p-system",
-    title: "P2P Publisher Subscriber System",
-    period: "October - December 2024",
-    description: "Built a fault-tolerant P2P publisher-subscriber system with 99.9% availability using topic replication in a hypercube topology.",
-    highlights: [
-      "99.9% system availability",
-      "30% performance optimization",
-      "1M+ topics scaling capability",
-      "Efficient failure recovery"
-    ],
-    techStack: ["Linux", "P2P Networks", "Hypercube Topology", "Async I/O", "Fault Tolerance"],
-    image: "/images/projects/p2p-system.jpg",
-    githubUrl: "https://github.com/sohamvsonar/Peer-to-Peer-Publisher-Subscriber-System"
   },
   {
     id: "disease-prediction-using-ml",
