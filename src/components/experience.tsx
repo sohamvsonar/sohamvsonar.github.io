@@ -6,19 +6,33 @@ import { useTheme } from "next-themes"
 
 const experiences = [
   {
+    id: "founding-engineer",
+    title: "Founding Software Engineer",
+    company: "Sandman CI",
+    shortCompany: "Sandman CI",
+    location: "Chicago, IL",
+    period: "December 2025 - Present",
+    companyUrl: "https://www.sandmanci.com/",
+    achievements: [
+      "Spearheaded end-to-end development owning product definition, UX, frontend, backend, cloud infrastructure, and deployment to ship an AI analytics platform, architected for multi-tenant scale (500+ users).",
+      "Designed and implemented a production-grade LLM system combining structured analytics, retrieval-augmented generation, and prompt versioning to analyze over 150+ datapoints, while improving response grounding and consistency.",
+      "Built scalable platform foundations (Next.js, Supabase/Postgres, Vercel, Stripe, CI/CD) with secure auth, subscription billing, streaming chat, and cost controls, enabling controlled growth from early pilots (15 users) to 150+ users.",
+      "Optimized query performance and built large-scale data pipelines to process and transform high-volume analytics data, reducing dashboard load times by 40% and enabling real-time insights across multi-tenant datasets.",
+      "Drove rapid product iteration by shipping new features daily based on direct user feedback, continuously refining the platform's UX and analytics capabilities to maximize user engagement and retention."
+    ]
+  },
+  {
     id: "research-assistant",
     title: "Research Assistant",
     company: "Gnosis Research Center - Illinois Institute of Technology",
     shortCompany: "Gnosis Research Center",
     location: "Chicago, IL",
-    period: "February 2025 - Present",
+    period: "March 2025 - September 2025",
     companyUrl: "https://grc.iit.edu/",
     achievements: [
-      "Developed agentic AI platform leveraging multi agent orchestration, LLM fine tuning, and conversational AI to automate end-to-end workflows across 40+ node clusters, enabling autonomous task execution and intelligent workflow coordination.",
-      "Conducted research on testing LLM based applications development (cursor, claude), building risk assessment frameworks and evaluating best practices to ensure robustness, reliability, and compliance in enterprise scale AI systems.",
-      "Developed a scalable AI/ML pipeline leveraging Hadoop HDFS for distributed data ingestion and Spark MLlib for model training, processing over 100 TB of data, slashing feature engineering time by 50%.",
-      "Enhanced the performance of open source projects (IOWarp, Chronolog), by integrating an intuitive natural language assistant for data analytics and AI driven workflows, reducing average data retrieval latency by 40%.",
-      "Accelerated containerized deployment of HPC applications, cutting setup time by 15%, by leveraging Docker, Jarvis-CD and Linux kernel tuning for Cluster Computers and scalable cloud based environments (Chameleon Cloud)."
+      "Developed an integrated Agentic AI platform leveraging multi agent orchestration to automate workflows across 40+ node clusters, enabling autonomous task execution and intelligent operations coordination.",
+      "Enhanced the performance of open source projects (IOWarp, Chronolog), by designing REST APIs and integrating an intuitive assistant for data analytics and AI driven workflows, reducing average data retrieval latency by 60%.",
+      "Automated CI/CD pipelines with GitHub Actions and Docker, automating build, lint testing, and deployment processes across on-prem systems and scalable cloud environments for faster and more reliable application delivery."
     ]
   },
   {

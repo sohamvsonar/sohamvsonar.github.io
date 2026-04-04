@@ -64,28 +64,30 @@ export function About() {
               </div>
 
               <p>
-                Currently, I am working as a <span className="text-primary font-semibold">Research Engineer</span> at{' '}
-                <a 
-                  href="https://grc.iit.edu/" 
-                  target="_blank" 
+                Currently, I am working as a <span className="text-primary font-semibold">Founding Software Engineer</span> at{' '}
+                <span className="text-primary font-semibold">Sandman CI</span>, building an AI analytics platform.
+                I have experience working as a Research Assistant at{' '}
+                <a
+                  href="https://grc.iit.edu/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary font-semibold hover:underline transition-all duration-200"
                 >
                   Gnosis Research Center
-                </a> at the Illinois Tech. I have experience working at multiple startups,{' '}
-                <a 
-                  href="https://www.vosyn.ai" 
-                  target="_blank" 
+                </a> at Illinois Tech, and at multiple startups including{' '}
+                <a
+                  href="https://www.vosyn.ai"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary font-semibold hover:underline transition-all duration-200"
                 >
                   Vosyn AI
                 </a>,{' '}
-                  Wolfizer Technologies, 
+                  Wolfizer Technologies,
                 and an Information Technology company-{' '}
-                <a 
-                  href="https://hexaware.com" 
-                  target="_blank" 
+                <a
+                  href="https://hexaware.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary font-semibold hover:underline transition-all duration-200"
                 >
