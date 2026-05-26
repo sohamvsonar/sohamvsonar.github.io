@@ -75,14 +75,6 @@ export function About() {
                 >
                   Gnosis Research Center
                 </a> at Illinois Tech, and at multiple startups including{' '}
-                <a
-                  href="https://www.vosyn.ai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary font-semibold hover:underline transition-all duration-200"
-                >
-                  Vosyn AI
-                </a>,{' '}
                   Wolfizer Technologies,
                 and an Information Technology company-{' '}
                 <a

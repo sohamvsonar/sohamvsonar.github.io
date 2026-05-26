@@ -36,34 +36,6 @@ const experiences = [
     ]
   },
   {
-    id: "ml-intern",
-    title: "Machine Learning Intern",
-    company: "Vosyn Inc.",
-    shortCompany: "Vosyn Inc.",
-    location: "Chicago, IL",
-    period: "January 2025 - April 2025",
-    companyUrl: "https://www.vosyn.ai",
-    achievements: [
-      "Designed and optimized machine learning models using Vertex AI to improve real-time multilingual voice synthesis accuracy by 35%, ensuring seamless contextual translation across global markets.",
-      "Spearheaded automated CI/CD pipelines for preprocessing and feature extraction on 100k+ multilingual audio samples, reducing data preparation time by 30%.",
-      "Deployed ML models for real-time voice localization using Kubernetes & Cloud Run, optimizing inference via CPU/GPU benchmarking and reduced latency by 20% and enabled scalable cross-platform integration."
-    ]
-  },
-  {
-    id: "mobile-developer",
-    title: "Mobile Developer Intern",
-    company: "Stealth Startup",
-    shortCompany: "Stealth Startup",
-    location: "Remote",
-    period: "October 2024 - January 2025",
-    companyUrl: "#",
-    achievements: [
-      "Designed and implemented user-friendly and responsive UI components using Flutter and Dart.",
-      "Collaborated with cross-functional teams to align frontend features with backend requirements, ensuring seamless integration and efficient performance, enhancing team efficiency by 15%.",
-      "Conducted extensive testing and debugging to improve user interface functionality across different devices."
-    ]
-  },
-  {
     id: "executive",
     title: "Executive",
     company: "Hexaware Technologies",
